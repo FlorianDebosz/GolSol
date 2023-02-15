@@ -3,7 +3,17 @@ guid: 5b473f3efaae2124a9e33ba949330a3c
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green
+    second: {fileID: 2100000, guid: b7a088242dedb9744921a4672386f9c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pink.011
+    second: {fileID: 2100000, guid: 2c564495700f1f3449f559263599dc6f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -88,7 +98,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.00025
+    globalScale: 0.025
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

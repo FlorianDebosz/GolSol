@@ -1,49 +1,130 @@
 fileFormatVersion: 2
 guid: 43f7a5c00bbfd61469802a43f4f79b41
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: BaloonImPair
-    100004: BaloonPair
-    100006: Box
-    100008: Support
-    100010: Support.001
-    100012: Support.002
-    100014: Support.003
-    400000: //RootNode
-    400002: BaloonImPair
-    400004: BaloonPair
-    400006: Box
-    400008: Support
-    400010: Support.001
-    400012: Support.002
-    400014: Support.003
-    2100000: No Name
-    2300000: BaloonImPair
-    2300002: BaloonPair
-    2300004: Box
-    2300006: Support
-    2300008: Support.001
-    2300010: Support.002
-    2300012: Support.003
-    3300000: BaloonImPair
-    3300002: BaloonPair
-    3300004: Box
-    3300006: Support
-    3300008: Support.001
-    3300010: Support.002
-    3300012: Support.003
-    4300000: Support.003
-    4300002: Support.002
-    4300004: Support.001
-    4300006: Support
-    4300008: Box
-    4300010: BaloonImPair
-    4300012: BaloonPair
-  externalObjects: {}
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: BaloonImPair
+  - first:
+      1: 100004
+    second: BaloonPair
+  - first:
+      1: 100006
+    second: Box
+  - first:
+      1: 100008
+    second: Support
+  - first:
+      1: 100010
+    second: Support.001
+  - first:
+      1: 100012
+    second: Support.002
+  - first:
+      1: 100014
+    second: Support.003
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: BaloonImPair
+  - first:
+      4: 400004
+    second: BaloonPair
+  - first:
+      4: 400006
+    second: Box
+  - first:
+      4: 400008
+    second: Support
+  - first:
+      4: 400010
+    second: Support.001
+  - first:
+      4: 400012
+    second: Support.002
+  - first:
+      4: 400014
+    second: Support.003
+  - first:
+      21: 2100000
+    second: No Name
+  - first:
+      23: 2300000
+    second: BaloonImPair
+  - first:
+      23: 2300002
+    second: BaloonPair
+  - first:
+      23: 2300004
+    second: Box
+  - first:
+      23: 2300006
+    second: Support
+  - first:
+      23: 2300008
+    second: Support.001
+  - first:
+      23: 2300010
+    second: Support.002
+  - first:
+      23: 2300012
+    second: Support.003
+  - first:
+      33: 3300000
+    second: BaloonImPair
+  - first:
+      33: 3300002
+    second: BaloonPair
+  - first:
+      33: 3300004
+    second: Box
+  - first:
+      33: 3300006
+    second: Support
+  - first:
+      33: 3300008
+    second: Support.001
+  - first:
+      33: 3300010
+    second: Support.002
+  - first:
+      33: 3300012
+    second: Support.003
+  - first:
+      43: 4300000
+    second: Support.003
+  - first:
+      43: 4300002
+    second: Support.002
+  - first:
+      43: 4300004
+    second: Support.001
+  - first:
+      43: 4300006
+    second: Support
+  - first:
+      43: 4300008
+    second: Box
+  - first:
+      43: 4300010
+    second: BaloonImPair
+  - first:
+      43: 4300012
+    second: BaloonPair
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 11ebf27a7b6b0b74fad16090b26c73c3, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -52,6 +133,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -76,25 +158,34 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -103,10 +194,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -116,13 +207,18 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
